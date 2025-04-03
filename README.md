@@ -1,6 +1,6 @@
-# Jigsxor - Shellcode Obfuscation Tool
+# Jigxor - Shellcode Obfuscation Tool
 
-Jigsxor takes raw shellcode and applies dual-layer obfuscation (XOR encryption + byte shuffling), outputting:
+Jigxor takes raw shellcode and applies dual-layer obfuscation (XOR encryption + byte shuffling), outputting:
 - Randomized shellcode array
 - Position lookup table
 - C/C++ reconstruction stub
@@ -8,4 +8,4 @@ Jigsxor takes raw shellcode and applies dual-layer obfuscation (XOR encryption +
 
 ## Usage
 ```bash
-python3 jigsxor.py inputfile.bin
+python3 jisxor.py inputfile.bin
