@@ -86,4 +86,4 @@ if __name__ == "__main__":
     if not len(sys.argv) == 2:
         print("[x] Script requires one argument: the filename of your shellcode .bin file.")
         sys.exit()
-    generateSplitJigsaw(sys.argv[1])
+    generateSplitJigxor(sys.argv[1])
